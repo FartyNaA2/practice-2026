@@ -1,0 +1,5 @@
+print("Привіт! Це інтерпретатор Python.")
+name = input("Введіть ваше ім'я: ")
+age = 18  # Тип int
+height = 1.75 # Тип float
+print(f"Користувач: {name}, Вік: {age}, Зріст: {height}")
