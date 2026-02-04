@@ -1,0 +1,14 @@
+def calc_area_proc(width, height):
+    return width * height
+
+print(f"Процедурний: {calc_area_proc(10, 5)}")
+
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    def area(self):
+        return self.width * self.height
+
+rect = Rectangle(10, 5)
+print(f"ООП: {rect.area()}")
