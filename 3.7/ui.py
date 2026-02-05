@@ -2,10 +2,6 @@ import tkinter as tk
 
 class MainWindow:
     def __init__(self, root, logic_callback):
-        """
-        root: головне вікно tkinter
-        logic_callback: функція, яку треба викликати при натисканні кнопки
-        """
         self.root = root
         self.logic_callback = logic_callback
         
