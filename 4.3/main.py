@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv("file.env")
 
 db_url = os.getenv("DB_URL")
 api_key = os.getenv("API_KEY")
