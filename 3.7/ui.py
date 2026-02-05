@@ -12,7 +12,6 @@ class MainWindow:
         self.root.title("Модульна програма")
         self.root.geometry("400x250")
 
-        # Елементи інтерфейсу
         tk.Label(root, text="Введіть текст:").pack(pady=10)
         
         self.entry = tk.Entry(root, width=40)
